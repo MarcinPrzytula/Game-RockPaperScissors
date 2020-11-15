@@ -19,7 +19,7 @@ const handSelection = (e) => {
     hands.forEach((hand) => {
         hand.style.boxShadow = "";
         e.target.style.boxShadow = "0 0 10px 2px red";
-    }) ~~
+    })
 }
 hands.forEach((hand) => {
     ``
