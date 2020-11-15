@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>GRA "PAPIER, KAMIEŃ, NOŻYCZKI"</h1>
+
+    <div class="select">
+        <h2>Proszę wybierz:</h2>
+        <img data-option="papier" src="img/papier.jpg" alt="">
+        <img data-option="kamień" src="img/kamien.jpg" alt="">
+        <img data-option="nożyczki" src="img/nozyczki.jpg" alt="">
+    </div>
+
+    <button class="play">Let's play!</button>
+    <div class="flexible">
+        <div class="panel-left">
+            <h2>Wyniki gry</h2>
+            <p>Twój wybór:<span data-view="player"></span></p>
+            <p>Wybór komputera:<span data-view="ai"></span></p>
+            <h2>Zwycięzca gry: <span data-view="winner"></span></h2>
+        </div>
+
+        <div class="panel-right">
+            <h2>Aktualne wyniki: </h2>
+            <p>liczba gier: <span data-view="numberOfAllGames">0</span></p>
+            <p>wygranych: <span data-view="numberOfWins">0</span></p>
+            <p>przegranych: <span data-view="numberOfLosses">0</span></p>
+            <p>remisów: <span data-view="numberOfDraws">0</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
