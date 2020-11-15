@@ -17,11 +17,12 @@ const game = {
 const handSelection = (e) => {
     game.playerChoice = e.target.dataset.option;
     hands.forEach((hand) => {
-        hand.style.border = "";
-        e.target.style.border = "4px solid red";
-    })
+        hand.style.boxShadow = "";
+        e.target.style.boxShadow = "0 0 10px 2px red";
+    }) ~~
 }
 hands.forEach((hand) => {
+    ``
     hand.addEventListener("click", handSelection)
 })
 
@@ -67,7 +68,7 @@ const endGame = () => {
     game.playerChoice = "";
     game.aiChoice = "";
     hands.forEach((hand) => {
-        hand.style.border = "";
+        hand.style.boxShadow = "";
     })
 
 }
