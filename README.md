@@ -1,3 +1,3 @@
-This is my first game
+This is my first game.
 
-Link https://raven325.github.io/FirstGame/
+Link: https://marcinprzytula.github.io/Rock-Paper-Scissors/
