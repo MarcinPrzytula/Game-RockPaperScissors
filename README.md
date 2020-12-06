@@ -1,3 +1,3 @@
 This is my first game.
 
-Link: https://marcinprzytula.github.io/Rock-Paper-Scissors/
+# Live [here](https://marcinprzytula.github.io/Game-RockPaperScissors/)
